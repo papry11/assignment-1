@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,900;1,400;1,700;1,900&family=Open+Sans:wght@400;600&family=Poppins:wght@200;400;600;700;900&family=Raleway:wght@500;600;700&display=swap');
+
+
+*{
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    transition: all .3s linear;
+}
+
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    overflow-x: hidden;
+}
+
+
+section{
+    padding: 2rem 9%;
+}
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.3)),url(resources/Banner\ Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height:81.5vh;
+    margin:4rem 10rem;
+    text-align: center;
+    padding: 4rem;
+    border-radius:2rem;
+}
+header .head-text{
+    padding:15rem;
+    width: 100%;
+    margin:auto;
+    text-shadow: 2px 2px 2px rgb(31, 30, 30);
+}
+
+header h4{
+    color:#fff;
+    font-size: 2rem;
+    font-weight: 400;
+}
+header h1{
+    color: #fff;
+    font-size:5rem;
+    font-weight:900;
+}
+
+/***************** header end ************ */
+
+.offer-sec{
+    text-transform:uppercase;
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+}
+
+.offer-sec h1{
+    font-size: 5.5rem;
+    font-family: Inter;
+    color: #F00;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom:2rem;
+    text-transform: uppercase;
+}
+
+.offer-sec h5{
+    font-size:2rem;
+    font-family: Inter;
+    color: #F00;
+    text-align: center;
+    margin: 1.5rem;
+    text-transform: uppercase;
+}
+
+.offer-sec h4{
+    font-size: 3rem;
+    text-align: center;
+    color:#070211;
+    text-transform: uppercase;
+}
+
+.offer-sec img{
+    width:50rem;
+    height:32rem;
+    margin:4rem 30rem;
+}
+
+/**************** offer section end ************ */
+
+.party{
+    background-image:url(resources/Vectorrr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: 100vh;
+    margin:4rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 2px 2px 2px rgb(31, 30, 30);
+}
+
+.party .party-text{
+    text-align:left;
+    width:50%;
+    padding-top: 15rem;
+}
+
+.party .party-text h2{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom:3rem;
+}
+
+.party .party-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size:2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:2.5rem;
+}
+
+.party .party-text button{
+    background-color: #F00;
+    padding:1.5rem 3rem;
+    border-radius: .6rem;
+    margin:1rem 0;
+    font-size: 1.5rem;
+}
+
+.party .party-text button a{
+    color: #fff;
+}
+
+.party .party-text button:hover{
+    color:#F00;
+    background-color:black;
+    padding:1.5rem 3rem;
+    border-radius: .6rem;
+    margin:1rem 0;
+    font-size: 1.5rem;
+}
+
+/* party end */
+
+.place-sec .place{
+    background-image:linear-gradient(#ffe6e6, #fffefe);
+    width: 1320px;
+    height: 482px;
+}
+.best-offer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.best-offer .part1{
+    width:35%
+}
+
+.best-offer .part1 h5{
+    color: #F00;
+    font-family: Inter;
+    font-size:2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.best-offer .part1 h3{
+    color: #070211;
+    font-size:3rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 1.5rem 0;
+    text-transform: capitalize;
+}
+
+.best-offer .part1 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size:1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:2.2rem;
+}
+
+.best-offer .part2{
+    border-radius: 29rem;
+    border: 1rem solid #F00;
+    margin: 0 5rem;
+    
+}
+.best-offer .part2 img{
+    width:23rem;
+    margin:2rem;
+}
+
+.best-offer .part3 h2{
+    color: #F00;
+    font-size: 3rem;
+    font-family: Inter;
+}
+
+.best-offer .part3{
+    width: 35%;
+}
+.best-offer .part3 p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size:1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.2rem;
+}
+
+.best-offer .part3 img{
+    width: 10rem;
+    margin:3rem 0;
+}
+
+/* best offer end */
+
+.portfolio{
+    max-width:100%;
+    height:100vh;
+    margin-bottom: 40rem;
+}
+
+.portfolio .portfolio-text h5{
+    color: #F00;
+    font-family: Inter;
+    font-size:2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.portfolio .portfolio-text h2{
+    color: #070211;
+    font-size:5rem;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio .portfolio-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size:1.8rem;
+    font-weight: 400;
+    line-height:2.5rem;
+    margin-bottom: 4rem;
+}
+
+.portfolio .portfolio-img{
+    max-width:110rem;
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap:1.5rem;
+}
+
+.portfolio .portfolio-img img{
+    width:100%;
+    box-shadow: 0 .2rem .3rem rgba(0,0,0,.4);
+    border-radius: 1rem;
+}
+
+.portfolio .portfolio-img img:hover{
+    box-shadow: 0 .8rem .7rem rgba(0,0,0,.4);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+/* subscribe */
+
+.subscribe{
+    width: 100%;
+    height:60vh;
+    text-align: center;
+    
+}
+
+.subscribe img{
+    width: 10rem;
+}
+
+.subscribe h2{
+    color: #070211;
+    text-align: center;
+    font-size:4.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size:1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:2rem
+}
+
+.subscribe .sub-sec{
+    width:100%;
+    background-color:#fff2f2;
+    text-align: center;
+    position: relative;
+    padding: 10rem;
+}
+
+.subscribe .sub-sec .box{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 50%;
+    width:500px;
+
+}
+
+input{
+    position: relative;
+    display:inline-block;
+    font-size:15px;
+    transition: .5s;
+    box-shadow: 0 .2rem .3rem rgba(0,0,0,.4);
+}
+
+input[type="text"]{
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border:none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"]{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width:150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #F00;
+    color: #fff;
+}
+
+input[type="submit"]:hover{
+    background:rgb(114, 190, 0);
+}
+
+
+
+/*******************footer*******************/
+
+footer{
+    max-width:100%;
+    height:60vh;
+    background-color:#070211 ;
+    margin-top:25rem;
+    color: #fff;
+    font-family: Inter;
+    font-size:1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height:2.5rem;
+}
+
+footer hr{
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height:1px;
+
+}
+
+footer .foot-part-1{
+    display:flex;
+    justify-content: space-around;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+
+}
+
+footer .foot-part-1 img{
+    margin-right: 2rem;
+}
+
+
+
+footer .foot-part-2{
+    text-align: center;
+    padding:4rem 0;
+}
+
+footer .foot-part-3{
+    display:flex;
+    justify-content: space-around;
+    padding:4rem 0;
+}
